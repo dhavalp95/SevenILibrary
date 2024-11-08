@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7F57D8252CDE301800D312E5 /* SevenILibraryExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F57D8222CDE301800D312E5 /* SevenILibraryExample.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		7F57D80A2CDE2E4800D312E5 /* SevenILibraryExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SevenILibraryExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F57D8222CDE301800D312E5 /* SevenILibraryExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SevenILibraryExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +50,7 @@
 		7F57D8012CDE2E4800D312E5 = {
 			isa = PBXGroup;
 			children = (
+				7F57D8242CDE301800D312E5 /* Sources */,
 				7F57D80C2CDE2E4800D312E5 /* SevenILibraryExample */,
 				7F57D80B2CDE2E4800D312E5 /* Products */,
 			);
@@ -56,6 +62,22 @@
 				7F57D80A2CDE2E4800D312E5 /* SevenILibraryExample.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7F57D8232CDE301800D312E5 /* SevenILibraryExample */ = {
+			isa = PBXGroup;
+			children = (
+				7F57D8222CDE301800D312E5 /* SevenILibraryExample.swift */,
+			);
+			path = SevenILibraryExample;
+			sourceTree = "<group>";
+		};
+		7F57D8242CDE301800D312E5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7F57D8232CDE301800D312E5 /* SevenILibraryExample */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F57D8252CDE301800D312E5 /* SevenILibraryExample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
